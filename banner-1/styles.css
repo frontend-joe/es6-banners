@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: "Euclid Circular A", "Poppins";
+}
+
+.banner {
+  position: relative;
+}
+
+.banner > header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding: 0 10%;
+  background: rgb(0 0 0 / 30%);
+}
+
+.banner > header img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.banner h2 {
+  margin: 0 0 10px;
+  font-size: 60px;
+  color: rgb(255 255 255 / 80%);
+}
+
+.banner h3 {
+  margin: 0;
+  font-size: 40px;
+  color: rgb(255 255 255 / 60%);
+}
+
+main {
+  padding: 50px 10%;
+  font-size: 30px;
+}
+
+main p {
+  margin: 0 0 60px;
+  opacity: 0.6;
+  line-height: 1.5;
+}
+
+.images {
+  display: flex;
+}
+
+.images > img {
+  flex-shrink: 0;
+  width: 65vw;
+  height: auto;
+  filter: grayscale(0.86);
+}
